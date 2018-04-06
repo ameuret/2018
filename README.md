@@ -26,7 +26,7 @@ accordingly.
  I used to have [Thor Generators](https://github.com/erikhuda/thor/wiki/Generators) to
  handle my skeletons but now I find them overkill.
  
- I also drew inspiration from these point of views:
+ I also drew inspiration from these points of view:
  
   * [badosu/Yogurt](https://github.com/badosu/Yogurt)
   * [jeremyevans/roda-sequel-stack](https://github.com/jeremyevans/roda-sequel-stack)
