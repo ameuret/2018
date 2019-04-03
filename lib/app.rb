@@ -22,7 +22,7 @@ class App < Roda
     # /hello branch
     req.on 'hello' do
       logEnv req
-      'Bonjour'
+      "Bonjour, welcome to #{ENV['SN']}"
     end
   end
 end
