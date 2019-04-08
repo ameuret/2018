@@ -14,8 +14,8 @@ else
   # with the App short name and add them to /etc/syslog.conf:
   # !App::SN
   # *.*                           /var/log/App::SN.log
-  raise "YOU MUST SET RSYSLOG UP"
-  LOG =  Syslog::Logger.new App::SN, Syslog::LOG_LOCAL1
+  #raise "YOU MUST SET RSYSLOG UP"
+  LOG = ::Logger.new STDOUT# Syslog::Logger.new App::SN, Syslog::LOG_LOCAL1
   LOG.info Paint["#{App::SN} Starting", :green]
 end
 
