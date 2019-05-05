@@ -12,10 +12,17 @@ Just a plain old [Roda](http://roda.jeremyevans.net/) skeleton.
 	git clone https://github.com/ameuret/2018.git greatStuff
 	cd greatStuff
 	rm -rf .git
+	git init .
     bundle
 	bundle exec rackup
-	
+
 Then read the messages, and start fixing things.
+
+Create a .env file (not to be committed in version control)
+
+	RACK_ENV = 'development'
+	SN = 'VBE'
+	PUMA_BIND = 'tcp://localhost:9292'
 
 Optionnally, where `App` is used as your main class name, change it to something more
 meaningful (e.g. GreatStuff™) and change the app dir name and the app.rb file name
