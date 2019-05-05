@@ -12,6 +12,7 @@ gem 'roda'
 gem 'sequel'
 gem 'tilt'
 gem 'yuicompressor'
+gem 'puma'
 
 group :development do
   gem 'better_errors'
