@@ -5,8 +5,7 @@ require 'app/log_pyramid'
 
 # The main application class
 class App < Roda
-  raise 'Change the APP short name below'
-  SN = 'APP'
+  SN = ENV['SN']
   include LogPyramid
 
   plugin :public
