@@ -4,15 +4,16 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-ruby '~>2.4'
+ruby '~>2.6'
 
 gem 'dotenv'
+gem 'escape_utils'
 gem 'paint'
-gem 'roda'
+gem 'roda', '~> 3'
 gem 'sequel'
 gem 'tilt'
 gem 'yuicompressor'
-gem 'puma'
+gem 'puma', '~> 4'
 
 group :development do
   gem 'better_errors'
