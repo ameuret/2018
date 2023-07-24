@@ -22,6 +22,7 @@ group :development do
   gem 'pry-doc'
   gem 'rack-unreloader'
   gem 'rake'
+  gem 'solargraph'
 end
 
 # gem 'sequel-pg', require: 'sequel'
