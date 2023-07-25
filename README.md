@@ -28,6 +28,21 @@ Optionnally, where `App` is used as your main class name, change it to something
 meaningful (e.g. GreatStuff™) and change the app dir name and the app.rb file name
 accordingly.
 
+## GitHub
+
+Using GitHub's CLI app to create the remote: 
+
+``` sh
+gh repo create ameuret/upd --private -d "Web hook destination server. Simple. Focused. Robust."
+```
+
+then:
+
+``` sh
+git remote add origin https://github.com/ameuret/upd.git
+git push -u origin main
+```
+
 ## Shoulders of giants
 
  I used to have [Thor Generators](https://github.com/erikhuda/thor/wiki/Generators) to
